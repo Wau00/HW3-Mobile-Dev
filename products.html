@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ABC Toys</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">ABC Toys</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./location.html">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./wurfl.html">WURFL</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container my-5">
+        <div class="accordion" id="ourToysAccordion">
+            <div class="card border-0 rounded-3 shadow-sm">
+                <div class="card-header bg-white" id="toy1Header">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-decoration-none text-dark fw-bold" type="button"
+                            data-toggle="collapse" data-target="#toy1Content" aria-expanded="true"
+                            aria-controls="toy1Content">
+                            Toy 1
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="toy1Content" class="collapse show " aria-labelledby="toy1Header"
+                    data-parent="#ourToysAccordion">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <img src="./Assets/toy1.png" width="300" height="300" alt="Toy 1"
+                                    class="img-fluid rounded-3">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="lead mb-0">A delightful yellow duck with wheels and a steering wheel, perfect
+                                    for imaginative playtime adventures. Children can take the duck on exciting journeys
+                                    around their playroom, or even outside, using the steering wheel to guide it along.
+                                    The bright yellow color and playful design are sure to capture the attention and
+                                    imagination of young children.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card border-0 rounded-3 shadow-sm">
+                <div class="card-header bg-white" id="toy2Header">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-decoration-none text-dark fw-bold" type="button"
+                            data-toggle="collapse" data-target="#toy2Content" aria-expanded="true"
+                            aria-controls="toy2Content">
+                            Toy 2
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="toy2Content" class="collapse " aria-labelledby="toy2Header" data-parent="#ourToysAccordion">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <img src="./Assets/toy2.png" width="300" height="300" alt="Toy 2">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <p class="lead mb-0">A fluorescent teddy bear that lights up in the dark, making it an
+                                    ideal companion for
+                                    bedtime. The soft, plush teddy bear is designed to provide comfort and security for
+                                    children as they fall asleep, while the glow-in-the-dark feature creates a soothing
+                                    and calming environment. The fluorescent material is safe and non-toxic, ensuring
+                                    parents' peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 rounded-3 shadow-sm">
+                <div class="card-header bg-white" id="toy3Header">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-decoration-none text-dark fw-bold" type="button"
+                            data-toggle="collapse" data-target="#toy3Content" aria-expanded="false"
+                            aria-controls="toy3Content">
+                            Toy 3
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="toy3Content" class="collapse" aria-labelledby="toy3Header" data-parent="#ourToysAccordion">
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <img src="./Assets/toy3.png" width="300" height="300" alt="Toy 3">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <p class="lead mb-0">A blue robot that has the ability to repeat what the user says,
+                                    adding an interactive
+                                    element to playtime. Children can talk to the robot and hear their words echoed back
+                                    to them, providing endless entertainment and encouraging language development. The
+                                    robot's cool blue design and interactive features make it a perfect addition to any
+                                    playroom or bedroom.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
